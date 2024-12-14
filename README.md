@@ -36,7 +36,7 @@
 - [Navigation in Compose](#navigation-in-compose)
 
 => Android Knowledge
-=> Video 1: https://www.youtube.com/watch?v=GXfOFQGG1rM&list=PLQ_Ai1O7sMV33aJHfqR-vquGZE1OCOS51&index=1
+=> Video 1: https://youtu.be/GXfOFQGG1rM?si=GNBxWnklNfGHnZkv
 ### What is Jetpack Compose?
 Jetpack compose is modern UI toolkit that simplified and accelerates the process of building user interfaces through a declarative and kotlin-based approach.
 
@@ -66,8 +66,80 @@ ui.theme/Theme.kt
 ui.theme/Type.kt
 MainActivity.kt
 
-=> Video 2: https://www.youtube.com/watch?v=bvQym_hszeI&list=PLQ_Ai1O7sMV33aJHfqR-vquGZE1OCOS51&index=2
-Splash Screen
+=> Video 2: https://youtu.be/bvQym_hszeI?si=3odQpT_yxAdbnMBT
+Splash Screen [Refer mainActivity]
+
+=> Video 3: https://youtu.be/RMQPHljE82I?si=BkAVdRF9K7JR-awA
+Text Composable and Modifiers [Refer ATextAndModifiers]
+
+=> Video 4: https://youtu.be/YbVm9Ue_J7E?si=FIZolyc98D2esrI5
+Row Column and Box [Refer BRowColumnBox]
+
+=> Video 5: https://youtu.be/bo5TAnctPCA?si=MpD9KJEoI7OFvHkY
+Alignment & Arrangement
+
+Alignment[Position] - Cross Axis => Alignment refers to the positioning of the composable element within its parent container, specifying how it should be placed relative to the available space along the horizontal and vertical axis
+Row -> Vertical
+Alignment parameter => Top, Center vertically, bottom
+
+Column -> Horizontal
+Alignment parameter => Start, Center Horizontally, End
+
+Arrangement - Main Axis => Arrangement defines the distribution of multiple composable within a container, determining their placement along the main axis  
+Row = Horizontal
+Arrangement parameter => Start, Center, End - Space Between, Space Around, Space Evenly, Absolute, etc
+
+Column = Vertical
+Arrangement parameter => Top, Center, Bottom - Space Between, Space Around, Space Evenly
+
+Box => Only Alignment is working
+Alignment parameter => TopStart, TopCenter, TopEnd, BottomStart, BottomCenter, BottomEnd, Center, CenterStart, CenterEnd
+
+=> Video 6: https://youtu.be/Ht0W-zNl59A?si=uBPHekYIrMr7l9uZ
+Button and Image
+
+=> Video 7: https://youtu.be/ClWcRPJ3Eyc?si=90kv3y8gxgxWzUR6
+State -> Mutable Variable
+In Jetpack compose, the "state" is refer to a mutable variable that triggers recomposition when it's value changes, allowing the UI to automatically reflect the updated state without manual intervention.
+It is a key concept for managing and updating UI elements dynamically. 
+
+--> State vs Variables 
+1: Recomposition trigger
+State -> It trigger recomposition when their value changes, it automatically updating the UI to reflect the new state
+Variable -> It do not trigger recomposition and require manual UI updated 
+
+2: Observability
+State -> State are observable, enabling the framework to efficiently track changes and optimize UI updates.
+Variable -> Regular variable lack this built-in observability
+
+3: Immutable Vs Mutable
+State -> State are designed to be mutable and allow modification within a composable function
+Variable -> Regular variable are typically immutable 
+
+4: Scoped to Composable
+State -> State are often scoped to composable functions, ensuring that the state is localized and specific to the UI component 
+Variable -> Regular variable may have a broader scope
+
+--> Syntax
+Normal variable - var age = 0
+state variable - var age by remember { mutableStateOf(0) }
+
+by -> In Kotlin, the "by" keyword is used in conjuction with the delegate pattern to create delegated property
+      delegated properties allows you to implement the getter and setter logic for a property in a separate class
+
+remember -> In Jetpack compose, "remember" is a function used to retain the state across recomposition, persisting it's value between calls to the composable function. 
+            It particularly useful for preserving stateful data without recomputing or resetting during UI updated. 
+
+mutableStateOf -> In Jetpack compose, "mutableStateOf" is a function that creates a mutable state variable.
+                  It returns a pair containing the current value and setter function. allowing modification of the state and triggering the UI recomposition when the value changes. 
+
+=> Video 8: https://youtu.be/Ahv0niXd_aY?si=8O5GxK4Z2EPEds9h
+Top App Bar
+
+
+
+
+
 
 
 

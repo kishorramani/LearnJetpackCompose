@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">JetpackComposeAndroidKnowledge</string>
+    <string name="app_name">AndroidKnowledge Jetpack Compose</string>
+    <string name="str_learn_text_and_modifier">Learn Text And Modifiers</string>
 </resources>
