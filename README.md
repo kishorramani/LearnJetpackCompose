@@ -136,6 +136,15 @@ mutableStateOf -> In Jetpack compose, "mutableStateOf" is a function that create
 => Video 8: https://youtu.be/Ahv0niXd_aY?si=8O5GxK4Z2EPEds9h
 Top App Bar
 
+=> Video 9: https://youtu.be/_gDK4r_0x9Y?si=oC27y6Fm3VR1aGK9
+Navigation Drawer
+
+=> Video 10: https://youtu.be/L8knAaFq3m8?si=c9kIXdS0e2KA2dRD
+Bottom Navigation
+
+=> Video 11: https://youtu.be/tkqlg25lIL0?si=qg5DxYQBIFlZcjNM
+Bottom Sheet
+
 
 
 

@@ -18,8 +18,11 @@
         <!-- android:name=".CAlignmentAndArrangement"-->
         <!-- android:name=".DButtonAndImage"-->
         <!-- android:name=".EState"-->
+        <!-- android:name=".FTopAppBar"-->
+        <!-- android:name=".g_navigation_drawer.GNavigationDrawer"-->
+        <!-- android:name=".h_bottom_navigation.GBottomNavigation"-->
         <activity
-            android:name=".EState"
+            android:name=".h_bottom_navigation.GBottomNavigation"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
