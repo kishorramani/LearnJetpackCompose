@@ -21,8 +21,10 @@
         <!-- android:name=".FTopAppBar"-->
         <!-- android:name=".g_navigation_drawer.GNavigationDrawer"-->
         <!-- android:name=".h_bottom_navigation.GBottomNavigation"-->
+        <!-- android:name=".i_bottom_sheet.IBottomSheet"-->
+        <!-- android:name=".j_bottom_nav_drawer_sheet.JBottomNavDrawerSheet"-->
         <activity
-            android:name=".h_bottom_navigation.GBottomNavigation"
+            android:name=".j_bottom_nav_drawer_sheet.JBottomNavDrawerSheet"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>

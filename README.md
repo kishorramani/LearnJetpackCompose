@@ -145,6 +145,11 @@ Bottom Navigation
 => Video 11: https://youtu.be/tkqlg25lIL0?si=qg5DxYQBIFlZcjNM
 Bottom Sheet
 
+=> Video 12: https://youtu.be/KkJb6rx0gC4?si=K7W_Ew0VroMu0Gk3
+Bottom Navigation
+Bottom Sheet
+Navigation Drawer
+
 
 
 
