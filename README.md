@@ -76,7 +76,7 @@ Text Composable and Modifiers [Refer ATextAndModifiers]
 Row Column and Box [Refer BRowColumnBox]
 
 => Video 5: https://youtu.be/bo5TAnctPCA?si=MpD9KJEoI7OFvHkY
-Alignment & Arrangement
+Alignment & Arrangement [Refer CAlignmentArrangement]
 
 Alignment[Position] - Cross Axis => Alignment refers to the positioning of the composable element within its parent container, specifying how it should be placed relative to the available space along the horizontal and vertical axis
 Row -> Vertical
@@ -96,10 +96,10 @@ Box => Only Alignment is working
 Alignment parameter => TopStart, TopCenter, TopEnd, BottomStart, BottomCenter, BottomEnd, Center, CenterStart, CenterEnd
 
 => Video 6: https://youtu.be/Ht0W-zNl59A?si=uBPHekYIrMr7l9uZ
-Button and Image
+Button and Image  [Refer DButtonAndImage]
 
 => Video 7: https://youtu.be/ClWcRPJ3Eyc?si=90kv3y8gxgxWzUR6
-State -> Mutable Variable
+State -> Mutable Variable  [Refer EState]
 In Jetpack compose, the "state" is refer to a mutable variable that triggers recomposition when it's value changes, allowing the UI to automatically reflect the updated state without manual intervention.
 It is a key concept for managing and updating UI elements dynamically. 
 
@@ -134,23 +134,63 @@ mutableStateOf -> In Jetpack compose, "mutableStateOf" is a function that create
                   It returns a pair containing the current value and setter function. allowing modification of the state and triggering the UI recomposition when the value changes. 
 
 => Video 8: https://youtu.be/Ahv0niXd_aY?si=8O5GxK4Z2EPEds9h
-Top App Bar
+Top App Bar  [Refer FTopAppBar]
 
 => Video 9: https://youtu.be/_gDK4r_0x9Y?si=oC27y6Fm3VR1aGK9
-Navigation Drawer
+Navigation Drawer  [Refer g_navigation_drawer - GNavigationDrawer]
 
 => Video 10: https://youtu.be/L8knAaFq3m8?si=c9kIXdS0e2KA2dRD
-Bottom Navigation
+Bottom Navigation  [Refer h_bottom_navigation - HBottomNavigation]
 
 => Video 11: https://youtu.be/tkqlg25lIL0?si=qg5DxYQBIFlZcjNM
-Bottom Sheet
+Bottom Sheet  [Refer i_bottom_sheet - IBottomSheet]
 
 => Video 12: https://youtu.be/KkJb6rx0gC4?si=K7W_Ew0VroMu0Gk3
-Bottom Navigation
+Bottom Navigation  [Refer j_bottom_nav_drawer_sheet - JBottomNavDrawerSheet]
 Bottom Sheet
 Navigation Drawer
 
+=> Video 13: https://youtu.be/T4A1TtF-g5U?si=qDTOyUzATq4Xcu6h
+Simple Login Page  [Refer k_login_page - KLoginPage]
 
+=> Video 14: https://youtu.be/zf6QJemVs2k?si=tNQ-JGkbqYT9Yeuk
+List, Lazy column, Lazy Row [refer l_list_lazy_column_row - LListLazyColumnRow]
+
+List => List of UI component used to display  a scrollable collection of items vertically or horizontally.
+
+Lazy Column => A Lazy column is a Composable UI component in jetpack compose used to display a vertically-scrollable list of items with lazy loading for efficiency.
+
+Lazy Row => A Lazy row is a Composable UI component in jetpack compose used to display a horizontally-scrollable list of items with lazy loading for efficiency. 
+
+=> Video 15: https://youtu.be/tk_4jaOFUtw?si=E6TIqWsQ65bcoM4x
+Constraint layout [refer m_constraint_layout - MConstraintLayout]
+
+Layout in XML
+Linear Layout, Relative Layout, Constraint Layout
+
+Layout in Jetpack Compose
+Column Layout, Row Layout, Box Layout, Constraint Layout
+
+Concept
+1: How to create constraint layout and refs
+2: Dimension
+3: Chain 
+4: Guideline
+
+=> Video 16: https://youtu.be/a3Y2uncgAMM?si=qkg6Zi6bhqvE5CJD
+Navigation Component [refer n_navigation_component - NNavigationComponent]
+
+Navigation component is a library that can manage navigation flow, transition animation, deep linking and passing the data in the app.
+- It manage navigation flow using destinations, actions, visual editor and components enhancing development efficiency. 
+
+Components 
+1: Nav graph -> Nav graph is present inside the nav host which specifies the route or the destinations. 
+2: Nav Host -> Nav Host is associated with the Nav Controller that initialize the navigation. 
+3: Nav Controller -> Nav controller manages all the navigation that takes place with the help of Nav host and Nav graph
+
+2 way to use
+1: Keywords
+2: Sealed class 
 
 
 

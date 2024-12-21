@@ -23,8 +23,12 @@
         <!-- android:name=".h_bottom_navigation.GBottomNavigation"-->
         <!-- android:name=".i_bottom_sheet.IBottomSheet"-->
         <!-- android:name=".j_bottom_nav_drawer_sheet.JBottomNavDrawerSheet"-->
+        <!-- android:name=".k_login_page.KLoginPage"-->
+        <!-- android:name=".l_list_lazy_column_row.LListLazyColumnRow"-->
+        <!-- android:name=".m_constraint_layout.MConstraintLayout"-->
+        <!-- android:name=".n_navigation_component.NNavigationComponent"-->
         <activity
-            android:name=".j_bottom_nav_drawer_sheet.JBottomNavDrawerSheet"
+            android:name=".n_navigation_component.NNavigationComponent"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
