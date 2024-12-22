@@ -62,4 +62,6 @@ dependencies {
 
     //constraint layout
     implementation (libs.androidx.constraintlayout.compose)
+
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 }

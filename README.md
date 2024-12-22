@@ -192,8 +192,24 @@ Components
 1: Keywords
 2: Sealed class 
 
+=> Video 17: https://youtu.be/57LBdPAnuLk?si=EOt39MOqXRnSpqcT
+mvvm
 
+mvvm -> Model-View-ViewModel
+Model -> Data
+View -> UI
+ViewModel -> Logic (Bridge between view and model)
 
+App using MVVM
+- Easy to Test
+- Easy to Maintain
+- Organized 
+
+=> Video 18: https://youtu.be/laGD8iYV3hQ?si=uGDbvnsPsjBukrvd
+Dashboard UI Design - I skip to development part for this
+
+=> Video 19: https://youtu.be/ppbyVn2SJ9Y?si=QQKBl1ryj60zjnwP
+Floating Action Button 
 
 
 
