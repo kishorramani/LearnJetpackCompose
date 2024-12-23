@@ -209,7 +209,12 @@ App using MVVM
 Dashboard UI Design - I skip to development part for this
 
 => Video 19: https://youtu.be/ppbyVn2SJ9Y?si=QQKBl1ryj60zjnwP
-Floating Action Button 
+Floating Action Button [refer p_floating_action_button - PFloatingActionButton]
+
+=> Video 20: https://youtu.be/4JoCUPVzqMo?si=x-qKvIrJoS-iqV_r
+Card [refer q_card - QCard]
+
+
 
 
 

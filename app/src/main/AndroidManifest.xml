@@ -29,8 +29,9 @@
         <!-- android:name=".n_navigation_component.NNavigationComponent"-->
         <!-- android:name=".o_mvvm.OMvvm"-->
         <!-- android:name=".p_floating_action_button.PFloatingActionButton"-->
+        <!-- android:name=".q_card.QCard"-->
         <activity
-            android:name=".p_floating_action_button.PFloatingActionButton"
+            android:name=".q_card.QCard"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
