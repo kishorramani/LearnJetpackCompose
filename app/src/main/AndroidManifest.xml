@@ -31,8 +31,12 @@
         <!-- android:name=".p_floating_action_button.PFloatingActionButton"-->
         <!-- android:name=".q_card.QCard"-->
         <!-- android:name=".r_check_boxes.RCheckBox"-->
+        <!-- android:name=".s_type_safe_navigation.S1TypeSafeNavigation"-->
+        <!-- android:name=".s_type_safe_navigation.S2TypeSafeWithPassArguments"-->
+        <!-- android:name=".s_type_safe_navigation.S2TypeSafeWithPassArguments1"-->
+        <!-- android:name=".s_type_safe_navigation.S3TypeSafeNestedNavigation"-->
         <activity
-            android:name=".r_check_boxes.RCheckBox"
+            android:name=".s_type_safe_navigation.S3TypeSafeNestedNavigation"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
