@@ -1,4 +1,4 @@
-# Jetpack Compose Course 📱✨
+# Learn Jetpack Compose 📱✨
 
 Welcome to the **Jetpack Compose Course**! This course is designed to guide you through the fundamentals of Jetpack Compose, Android's modern toolkit for building native UI. Whether you're a beginner or looking to enhance your UI development skills, this course offers practical examples and hands-on experience.
 
