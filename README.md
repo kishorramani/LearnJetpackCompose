@@ -185,6 +185,10 @@ Floating Action Button [refer p_floating_action_button - PFloatingActionButton]
 => Video 20: https://youtu.be/4JoCUPVzqMo?si=x-qKvIrJoS-iqV_r
 Card [refer q_card - QCard]
 
+=> Video 21: https://youtu.be/lH9vyVuCK7o?si=ompTWwdqFPrGpNTZ
+Check box [refer r_check_boxes]
+
+
 ## 🙌 Final Note
 
 > **Thanks me later — but first, finish learning Jetpack Compose! 😉**
