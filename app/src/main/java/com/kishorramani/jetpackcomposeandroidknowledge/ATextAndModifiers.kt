@@ -3,14 +3,17 @@ package com.kishorramani.jetpackcomposeandroidknowledge
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
@@ -39,6 +42,11 @@ class ATextAndModifiers : ComponentActivity() {
 @Composable
 fun LearnTextAndModifiers() {
     val clickOnText = {}
+    //The error occurs because the new Compose version requires Modifier.clickable to
+    // explicitly provide a ripple (indication)
+    // and interaction state (interactionSource) for proper touch feedback handling.
+    val interactionSource = remember { MutableInteractionSource() }
+
     Text(
         text = stringResource(R.string.str_learn_text_and_modifier),
         color = Color.Red,
@@ -48,6 +56,8 @@ fun LearnTextAndModifiers() {
             .padding(22.dp)
             .background(Color.Blue)
             .clickable(
+                interactionSource = interactionSource,
+                indication = LocalIndication.current,
                 onClick = clickOnText
             )
     )

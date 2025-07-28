@@ -2,18 +2,18 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.kotlinx.serialization)
+    alias(libs.plugins.jetbrains.kotlin.serialization)
     id("kotlin-parcelize")
 }
 
 android {
     namespace = "com.kishorramani.jetpackcomposeandroidknowledge"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.kishorramani.jetpackcomposeandroidknowledge"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -61,10 +61,19 @@ dependencies {
 
     //for navigation
     implementation (libs.androidx.navigation.compose)
-    implementation(libs.kotlinx.serialization)
+    //implementation(libs.kotlinx.serialization)        //already added
 
     //constraint layout
     implementation (libs.androidx.constraintlayout.compose)
 
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    //navigation
+    implementation(libs.androidx.navigation3.runtime)
+    implementation(libs.androidx.navigation3.ui)
+    //implementation(libs.androidx.material3.adaptive.navigation3)
+    implementation(libs.androidx.lifecycle.viewmodel.navigation3)
+    implementation(libs.kotlinx.serialization.core)
+    implementation(libs.kotlinx.serialization.json)
+    //implementation(libs.androidx.material3.adaptive.navigation.suite)
 }
